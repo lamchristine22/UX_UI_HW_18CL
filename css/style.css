@@ -88,7 +88,6 @@
             padding: 12px 25px;
             text-align: center;
             text-decoration: none;
-            display: inline-block;
             font-size: 16px;
             font-family: 'Figtree', sans-serif;
             cursor: pointer;
@@ -98,26 +97,74 @@
 /* ===== ABOUT ME PAGE ===== */
         
 
+
+    #page2Grid{
+        background-color: #3364B2;
+        display: grid;
+        height: 770px;
+        width:fit-content;
+        grid-template-columns: repeat(4,1fr 3fr);
+        margin: 0 auto;
+        padding-left: 10%;
+        padding-top: 10%;
+        padding-bottom: 9%;
+    }
+
         .flexContainer1{
             display: flex;
             flex-direction: column;
-            width: 23%;
-            background-color: blue;
+            width: 200%;
             align-items:flex-end;
+            padding: 1%;
+            transform: translate(-60%, 5%);
         }
 
         .centreHeader{
-            align-items: center;
-            width: 23%;
-            background-color: aqua;
+            align-content: center;
+            width: 200%;
+            padding-bottom: 2%;
+            margin: 0px;
+            height: 20px;
+            color: #F8F3DF;
         }
 
         h2{
             font-family: 'Figtree', sans-serif;
             letter-spacing: 0.2em;
             font-size: 24px;
+            text-align: center;
+            line-height: 2px;
+            color: #F8F3DF;
         }
 
+        h4{
+            font-family: 'Figtree', sans-serif;
+            font-size: 16px;
+            text-align: center;
+            line-height: 1px;
+            color: #F8F3DF;
+        }
+
+       .text2{
+        line-height: -1px;
+        font-family:'Figtree', sans-serif;
+        margin-top: -2px;
+        color: #F8F3DF;
+        }
+
+        .flexContainer2{
+            flex-direction: row;
+        }
+
+        .centreHeader2{
+            text-align: left;
+            width: 300%;
+            padding-bottom: 2%;
+            margin: 0px;
+            height: 20px;
+            color: #ffcc00;
+    
+        }
 
 /* ===== FOOTER ===== */
         .footer {
