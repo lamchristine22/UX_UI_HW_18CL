@@ -78,6 +78,7 @@
 
         p{
             padding: 2px;
+            font-family: 'Figtree', sans-serif;
             }
 
         .button1 {
@@ -93,78 +94,85 @@
             cursor: pointer;
             }
 
-
 /* ===== ABOUT ME PAGE ===== */
-        
+            .aboutMe{
+                align-items: center;
+                margin: auto;
+            }
+
+            .grid-container-aboutMe {
+                background-color: #fafafa;
+                margin: auto;
+                height: 900px;
+                display: grid;
+                grid-column-gap: 100px;
+                grid-template-rows: 150px 500px;
+                grid-template-areas: 
+                    "workexperience tools"
+                    "workexperience skills";
+                padding-top: 50px;
+
+            }
+
+            .workexperience {
+                font-family: 'Figtree', sans-serif;
+                grid-area: workexperience;
+                align-items: flex-end;
+                text-align: end;
+            }
+
+            .tools{
+                font-family: 'Figtree', sans-serif;
+                grid-area: tools;
+            }
+
+            .skills{
+                font-family: 'Figtree', sans-serif;
+                grid-area: skills;
+                padding-top: 35px;
+            }
+
+            .inlineBlock{
+                display: inline-block;
+                width: 230px;
+            }
+
+            .inlineBlock1{
+                display: inline-block;
+                width: 230px;
+            }
+
+            .inlineBlock2{
+                display: inline-block;
+                width: 230px;
+            }
+
+            .inlineBlock3{
+                display: inline-block;
+                width: 230px;
+            }
+
+            .h4{
+                font-family: 'Figtree', sans-serif;
+                margin: -100px;
+            }
 
 
-    #page2Grid{
-        background-color: #3364B2;
-        display: grid;
-        height: 770px;
-        width:fit-content;
-        grid-template-columns: repeat(4,1fr 3fr);
-        margin: 0 auto;
-        padding-left: 10%;
-        padding-top: 10%;
-        padding-bottom: 9%;
-    }
 
-        .flexContainer1{
-            display: flex;
-            flex-direction: column;
-            width: 200%;
-            align-items:flex-end;
-            padding: 1%;
-            transform: translate(-60%, 5%);
-        }
-
-        .centreHeader{
-            align-content: center;
-            width: 200%;
-            padding-bottom: 2%;
-            margin: 0px;
-            height: 20px;
-            color: #F8F3DF;
-        }
-
-        h2{
-            font-family: 'Figtree', sans-serif;
-            letter-spacing: 0.2em;
-            font-size: 24px;
-            text-align: center;
-            line-height: 2px;
-            color: #F8F3DF;
-        }
-
-        h4{
-            font-family: 'Figtree', sans-serif;
-            font-size: 16px;
-            text-align: center;
-            line-height: 1px;
-            color: #F8F3DF;
-        }
-
-       .text2{
-        line-height: -1px;
-        font-family:'Figtree', sans-serif;
-        margin-top: -2px;
-        color: #F8F3DF;
-        }
-
-        .flexContainer2{
-            flex-direction: row;
-        }
-
-        .centreHeader2{
-            text-align: left;
-            width: 300%;
-            padding-bottom: 2%;
-            margin: 0px;
-            height: 20px;
-            color: #ffcc00;
+/* ===== PROJECTS ===== */
+            .workGrid{
+                background-color:#F8F3DF;
+                display: grid;
+                height: 580px;
+                width:fit-content;
+                grid-template-columns: repeat(3,1fr 2fr);
+                margin: 0 auto;
+                background-color: #F8F3DF;
+                padding-left: 20%;
+                padding-top: 50px;
+                padding-bottom: 20px;
+                }
     
-        }
 
 /* ===== FOOTER ===== */
         .footer {
