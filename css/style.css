@@ -103,7 +103,7 @@
             .grid-container-aboutMe {
                 background-color: #fafafa;
                 margin: auto;
-                height: 900px;
+                height: 800px;
                 display: grid;
                 grid-column-gap: 100px;
                 grid-template-rows: 150px 500px;
@@ -160,19 +160,26 @@
 
 
 /* ===== PROJECTS ===== */
-            .workGrid{
-                background-color:#F8F3DF;
-                display: grid;
-                height: 580px;
-                width:fit-content;
-                grid-template-columns: repeat(3,1fr 2fr);
-                margin: 0 auto;
-                background-color: #F8F3DF;
-                padding-left: 20%;
-                padding-top: 50px;
-                padding-bottom: 20px;
+            .projects{
+                color: #3364B2;
+                width: 500px;
+                padding: 1%;
+                padding-top: auto;
+                margin: auto;
                 }
-    
+
+            .workGrid{
+                display: grid;
+                height: 800px;
+                grid-template-columns: repeat(2,2fr 2fr 2fr);
+                width:fit-content;
+                grid-template-areas: 
+                "saveAPet deptOfHealth bud";
+                font-family: 'Figtree', sans-serif;
+                padding-top: 50px;
+            }
+
+
 
 /* ===== FOOTER ===== */
         .footer {
