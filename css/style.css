@@ -169,14 +169,20 @@
                 }
 
             .workGrid{
-                display: grid;
-                height: 800px;
-                grid-template-columns: repeat(2,2fr 2fr 2fr);
-                width:fit-content;
-                grid-template-areas: 
-                "saveAPet deptOfHealth bud";
                 font-family: 'Figtree', sans-serif;
+                display: flex;
+                height: 800px;
+                width:fit-content;
+                margin: 0px auto;
                 padding-top: 50px;
+            }
+
+            .saveAPet{
+                padding-right: 50px;
+            }
+
+            .deptOfHealth{
+                padding-right: 50px;
             }
 
 
