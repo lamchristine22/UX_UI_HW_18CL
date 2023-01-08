@@ -139,6 +139,11 @@
                 padding-top: 35px;
             }
 
+            .skillsHeader{
+                font-size: 20px;
+                padding-bottom: 6px;
+            }
+
             .inlineBlock{
                 display: inline-block;
                 width: 230px;
@@ -162,6 +167,7 @@
             h4{
                 font-family: 'Figtree', sans-serif;
                 margin-bottom: 0px;
+                font-size: 14px;
             }
 
 
