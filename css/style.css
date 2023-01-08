@@ -105,7 +105,7 @@
                 margin: auto;
                 height: 800px;
                 display: grid;
-                grid-column-gap: 100px;
+                grid-column-gap: 0px;
                 grid-template-rows: 150px 500px;
                 grid-template-areas: 
                     "workexperience tools"
@@ -118,12 +118,15 @@
                 font-family: 'Figtree', sans-serif;
                 grid-area: workexperience;
                 align-items: flex-end;
-                text-align: end;
+                padding-left: 400px;
+                width: 350px;
+                ;
             }
 
             .tools{
                 font-family: 'Figtree', sans-serif;
                 grid-area: tools;
+
             }
 
             .skills{
@@ -212,6 +215,15 @@
                 font-family: 'Figtree', sans-serif;
                 cursor: pointer;
                 }
+
+            h4{
+                margin-bottom: 0px;
+            }
+
+            .text2{
+                margin-top: 0px;
+                font-size: 14px;
+            }
 
             h5{
                 font-size: 18px;
