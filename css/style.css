@@ -160,29 +160,72 @@
 
 
 /* ===== PROJECTS ===== */
+            .sectionProject{
+                background-color: #3364B2;
+                padding-top: 80px;
+            }
+
             .projects{
-                color: #3364B2;
                 width: 500px;
-                padding: 1%;
-                padding-top: auto;
+                margin-top: 30px;
+                padding: 0.3%;
                 margin: auto;
+                color: #F8F3DF;
                 }
 
             .workGrid{
+                color: #F8F3DF;
                 font-family: 'Figtree', sans-serif;
                 display: flex;
-                height: 800px;
-                width:fit-content;
+                height: 1000px;
+                width:1200px;
                 margin: 0px auto;
                 padding-top: 50px;
+                padding: 20px;
             }
 
             .saveAPet{
+                padding-top: 50px;
                 padding-right: 50px;
             }
 
             .deptOfHealth{
+                padding-top: 50px;
                 padding-right: 50px;
+            }
+
+            .trvlr{
+                padding-top: 50px;
+            }
+
+            .button2 {
+                display: block;
+                background-color: #F8F3DF; 
+                border: none;
+                border-radius: 12px;
+                color: #3364B2;
+                padding: 8px 20px;
+                margin-top: 10px;
+                text-align: center;
+                text-decoration: none;
+                font-size: 14px;
+                font-family: 'Figtree', sans-serif;
+                cursor: pointer;
+                }
+
+            h5{
+                font-size: 18px;
+                margin-top: 12px;
+                margin-bottom: 0px;
+            }
+
+            h6{
+                font-size: 14px;
+                margin-bottom: 4px;
+            }
+
+            .userGoal{
+                font-size: 14px;
             }
 
 
@@ -191,9 +234,9 @@
         .footer {
             margin: 0 auto;
             font-family: 'Figtree', sans-serif;
-            font-size: 10px;
-            color: white;
-            background-color: #3364B2;
+            font-size: 14px;
+            color: #3364B2;
+            background-color: #F8F3DF;
             display: inline-block;
             text-align: center;
             vertical-align: bottom;
