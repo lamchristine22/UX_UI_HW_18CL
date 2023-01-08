@@ -103,15 +103,19 @@
             .grid-container-aboutMe {
                 background-color: #fafafa;
                 margin: auto;
-                height: 800px;
+                height: 900px;
                 display: grid;
                 grid-column-gap: 0px;
-                grid-template-rows: 150px 500px;
+                grid-template-rows: 150px 400px;
                 grid-template-areas: 
                     "workexperience tools"
                     "workexperience skills";
                 padding-top: 50px;
 
+            }
+
+            .centreHeader{
+                color: #3364B2;
             }
 
             .workexperience {
@@ -126,7 +130,7 @@
             .tools{
                 font-family: 'Figtree', sans-serif;
                 grid-area: tools;
-
+    
             }
 
             .skills{
@@ -155,9 +159,9 @@
                 width: 230px;
             }
 
-            .h4{
+            h4{
                 font-family: 'Figtree', sans-serif;
-                margin: -100px;
+                margin-bottom: 0px;
             }
 
 
