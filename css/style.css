@@ -102,11 +102,11 @@
 
             .grid-container-aboutMe {
                 background-color: #fafafa;
-                margin: auto;
                 height: 900px;
                 display: grid;
                 grid-column-gap: 0px;
-                grid-template-rows: 150px 400px;
+                grid-template-rows: 150px;
+                grid-template-columns: 850px;
                 grid-template-areas: 
                     "workexperience tools"
                     "workexperience skills";
